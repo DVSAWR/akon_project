@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "econ-test"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Gruzdev <gruzdev.daniil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+isort = "^5.13.2"
+uvicorn = "^0.32.0"
+flake8 = "^7.1.1"
+mypy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
